@@ -6,9 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navigation = [
-  { name: "PROJECT GARDEN", href: "/", current: false },
-  { name: "EXHIBITIONS", href: "/exhibitions", current: false },
-  { name: "CONTACT", href: "/contact", current: false },
+  { name: "new", href: "/", current: false },
+  { name: "products", href: "/products", current: false },
+  { name: "about us", href: "/aboutus", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -17,8 +17,8 @@ function classNames(...classes: any) {
 
 export default function Nevigator() {
   return (
-    <div>
-      <Disclosure as="nav" className="bg-white">
+    <div className=" fixed w-full bg-inherit">
+      <Disclosure as="nav" >
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -36,19 +36,11 @@ export default function Nevigator() {
                 </div>
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
-                    <div className="pt-4">
-                      <Image
-                        src="/namu-logo.png"
-                        alt="Picture of the author"
-                        width={55}
-                        height={55}
-                      />
-                    </div>
                     <div className="pt-3 -ml-6">
                       <Link href="/">
                         <a>
                           <Image
-                            src="/nami-logo.png"
+                            src="/logo.png"
                             alt="Picture of the author"
                             width={130}
                             height={80}
@@ -58,7 +50,7 @@ export default function Nevigator() {
                     </div>
                   </div>
                   <div className="hidden sm:block sm:ml-6 pt-[26px]">
-                    <div className="flex mt-2 space-x-4">
+                    <div className="flex-1 mt-2 space-x-4">
                       {navigation.map((item) => (
                         <Link href={item.href} key={item.name}>
                           <a
