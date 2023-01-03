@@ -1,5 +1,5 @@
-# treenami Profile Website
-ㅇ 개발년도 : 2021
+# 소품역 station-sopoom
+ㅇ 개발년도 : 2023
 
 ㅇ 주요기술 
   - Next.js, tailwind css, Open API
