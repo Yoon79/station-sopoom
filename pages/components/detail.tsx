@@ -2,17 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 const callouts = [
   {
-    name: "hoody",
+    name: "human_catnip_club hoody",
     imageSrc: "/hoodyA.png",
     href: "/pictures/hoodyA.png",
   },
   {
-    name: "hoody",
+    name: "tuesday_jazz_club hoody",
     imageSrc: "/hoodyB.png",
     href: "/pictures/hoodyB.png",
   },
   {
-    name: "iPhone case",
+    name: "santa_cat iPhone case",
     description: "",
     imageSrc: "/phonecase.png",
     href: "/pictures/phonecase.png",
@@ -42,16 +42,16 @@ const callouts = [
 export default function Main() {
   return (
     <div>
-      <div className="bg-white">
+      <div>
         <div className="max-w-2xl mx-auto py-20 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 lg:max-w-6xl lg:px-6">
           <div className="max-w-7xl mx-auto px-4 ">
-            <h4 className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl">
+            <h4 className="font-mono font-bold text-gray-800 text-xl">
               Collections
             </h4>
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map((callout) => (
                 <div key={callout.name} className="group relative">
-                  <div className="relative w-full h-80 bg-white rounded-lg cursor-pointer overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
+                  <div className="relative w-full h-80 rounded-lg cursor-pointer overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
                     <Link href={callout.href} key={callout.name}>
                       <a>
                         <Image
@@ -65,7 +65,7 @@ export default function Main() {
                     </Link>
                   </div>
                   <div className="mb-4 mt-2 ">
-                    <span className="text-justify text-sm italic text-gray-500">
+                    <span className="font-mono text-justify text-sm italic text-gray-600">
                       {callout.name}
                     </span>
                     {/* <p className="text-sm mt-2 font-light text-justify text-slate-900">

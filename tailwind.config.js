@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         AlegreyaSans: ["Alegreya Sans", "sans-serif"],
         MalgunGothic: ["Malgun Gothic"],
+        sans: ["Helvetica", "Arial"],
       },
     },
   },
