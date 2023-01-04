@@ -381,9 +381,9 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-darwin-x64@12.1.4":
-  "integrity" "sha512-p1lwdX0TVjaoDXQVuAkjtxVBbCL/urgxiMCBwuPDO7TikpXtSRivi+mIzBj5q7ypgICFmIAOW3TyupXeoPRAnA=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.1.4.tgz"
+"@next/swc-darwin-arm64@12.1.4":
+  "integrity" "sha512-SSST/dBymecllZxcqTCcSTCu5o1NKk9I+xcvhn/O9nH6GWjgvGgGkNqLbCarCa0jJ1ukvlBA138FagyrmZ/4rQ=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.1.4.tgz"
   "version" "12.1.4"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -1377,10 +1377,10 @@
     "call-bind" "^1.0.2"
     "get-intrinsic" "^1.1.1"
 
-"gh-pages@^3.2.3":
-  "integrity" "sha512-jA1PbapQ1jqzacECfjUaO9gV8uBgU6XNMV0oXLtfCX3haGLe5Atq8BxlrADhbD6/UdG9j6tZLWAkAybndOXTJg=="
-  "resolved" "https://registry.npmjs.org/gh-pages/-/gh-pages-3.2.3.tgz"
-  "version" "3.2.3"
+"gh-pages@^4.0.0":
+  "integrity" "sha512-p8S0T3aGJc68MtwOcZusul5qPSNZCalap3NWbhRUZYu1YOdp+EjZ+4kPmRM8h3NNRdqw00yuevRjlkuSzCn7iQ=="
+  "resolved" "https://registry.npmjs.org/gh-pages/-/gh-pages-4.0.0.tgz"
+  "version" "4.0.0"
   dependencies:
     "async" "^2.6.1"
     "commander" "^2.18.0"
