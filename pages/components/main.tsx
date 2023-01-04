@@ -38,7 +38,7 @@ export default function Main() {
             </div>
 
             <p className="font-mono text-justify mt-4 text-gray-700">
-            Let's have fun in boring daily life with small and cute things.
+            Let us have fun in boring daily life with small and cute things.
             thanks to our muse bboobboo.
             </p>
 
