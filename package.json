@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next",
-    "vercel-deploy": "next build && next export"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
