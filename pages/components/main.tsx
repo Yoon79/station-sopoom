@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Typewriter from 'typewriter-effect';
+
 
 export default function Main() {
   return (
@@ -16,22 +18,11 @@ export default function Main() {
                 height={500}
               />
             </div>
-            {/* <div className="px-4">
-              <span className="text-justify text-sm italic text-gray-500">
-                비비추(정갈한 수줍음), 39.5 X 52.5cm Watercolor
-              </span> */}
-              {/* <span className="text-justify ml-4 text-sm italic text-gray-400">
-                
-              </span>
-              <span className="text-justify ml-4 text-sm italic text-gray-400">
-                
-              </span> */}
-            {/* </div> */}
           </div>
 
           <div className=" px-4">
             <h4 className="font-mono font-bold	 text-gray-800 text-xl">
-            congrats!
+            Congrats!
             </h4>
             <div className="font-mono mt-0.5 text-gray-700 font-medium">
               moongoomoongoo

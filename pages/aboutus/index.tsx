@@ -3,6 +3,7 @@ import Link from "next/link";
 import Nevigator from "../components/navigator";
 import Image from "next/image";
 import Footer from "../components/footer";
+import Typewriter from 'typewriter-effect';
 
 const AboutUs: NextPage = () => {
   return (
@@ -24,9 +25,16 @@ const AboutUs: NextPage = () => {
           <div className="font-mono mt-1.5 text-gray-700 font-medium">
           since 2023
           </div>
-          <div className="flex-col pt-5 py-6">
-            <div className="font-mono">hello.</div>
-            <div className="font-mono">welcome to our cool website.</div>
+          <div className="flex-col pt-5 py-6 font-mono">
+          <Typewriter
+              options={{
+              strings: ["hello!","welcome to our cool website."],
+              autoStart: true,
+              loop: true,
+              }}
+            />
+            {/* <div>hello.</div> */}
+            {/* <div>welcome to our cool website.</div> */}
           </div>
         </div>
       </div>
