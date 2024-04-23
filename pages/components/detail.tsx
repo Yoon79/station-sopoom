@@ -2,6 +2,26 @@ import Image from "next/image";
 import Link from "next/link";
 const callouts = [
   {
+    name: "pink masking tape",
+    imageSrc: "/masking_pink.png",
+    href: "/pictures/masking_pink.png",
+  },
+  {
+    name: "blue masking tape",
+    imageSrc: "/masking_blue.png",
+    href: "/pictures/masking_blue.png",
+  },
+  {
+    name: "rockstar_cat keyring",
+    imageSrc: "/keyring.PNG",
+    href: "/pictures/keyring.PNG",
+  },
+  {
+    name: "2024 calendar",
+    imageSrc: "/2024.JPG",
+    href: "/pictures/2024.JPG",
+  },
+  {
     name: "human_catnip_club hoody",
     imageSrc: "/hoodyA.png",
     href: "/pictures/hoodyA.png",

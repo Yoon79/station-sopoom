@@ -4,6 +4,30 @@ import { useRouter } from "next/router";
 
 const callouts = [
   {
+    name: "pink masking tape",
+    description:"2024 ss",
+    imageSrc: "/masking_pink.png",
+    href: "/pictures/masking_pink.png",
+  },
+  {
+    name: "blue masking tape",
+    description:"2024 ss",
+    imageSrc: "/masking_blue.png",
+    href: "/pictures/masking_blue.png",
+  },
+  {
+    name: "rockstar_cat keyring",
+    description:"2024 ss",
+    imageSrc: "/keyring.PNG",
+    href: "/pictures/keyring.PNG",
+  },
+  {
+    name: "2024 calendar",
+    description:"2024 ss",
+    imageSrc: "/2024.JPG",
+    href: "/pictures/2024.JPG",
+  },
+  {
     name: "human_catnip_club hoody",
     description:"2023 FW",
     imageSrc: "/hoodyA.png",
@@ -71,16 +95,17 @@ const Picture: NextPage = () => {
   const imageObj = imageArr[0];
   return (
     <>
-      <div className="px-2 -mt-40 flex h-screen items-center justify-center ">
-        <div className="h-48 max-w-screen-md   ">
+      <div className="px-2 -mt-40 flex h-screen items-center justify-center">
+        <div className="h-48 max-w-screen-md">
           <Image
             src={location}
             alt="Picture of the author"
+            className="object-contain"
             width={500}
             height={500}
           />
           <div className=" ">
-            <span className="font-mono text-justify text-sm italic text-gray-500 ">
+            <span className="font-mono text-justify text-sm italic text-gray-500">
               {imageObj != null ? imageObj.name : ""}
             </span>
             <p className="font-mono text-sm mt-2 font-light text-justify text-slate-900">
